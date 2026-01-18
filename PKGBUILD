@@ -1,5 +1,5 @@
 # Maintainer: Rayen Stark <rayen.stark@protonmail.com>
-pkgname=blitz
+pkgname=xboxdrv-blitz
 pkgver=0.1.0
 pkgrel=1
 pkgdesc="A modern GUI for xboxdrv to configure game controllers"

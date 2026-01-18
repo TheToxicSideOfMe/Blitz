@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "blitz",
+  "productName": "xboxdrv-blitz",
   "version": "0.1.0",
-  "identifier": "com.courier.blitz",
+  "identifier": "com.courier.xboxdrv-blitz",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
