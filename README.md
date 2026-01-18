@@ -28,7 +28,7 @@ yay -S blitz
 sudo pacman -S rust nodejs pnpm webkit2gtk gtk3 libappindicator-gtk3 xboxdrv polkit
 
 # Clone and build
-git clone https://github.com/yourusername/blitz.git
+git clone https://github.com/TheToxicSideOfMe/blitz.git
 cd blitz
 pnpm install
 pnpm tauri build
@@ -71,15 +71,3 @@ PRs welcome! This was built to scratch my own itch with a cheap controller, but 
 
 MIT
 ```
-
-### `.gitignore` (add if not already there):
-```
-/target
-/node_modules
-/dist
-/.svelte-kit
-/package
-.env
-.DS_Store
-*.log
-src-tauri/target/

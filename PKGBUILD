@@ -1,4 +1,4 @@
-# Maintainer: Your Name <rayen.stark@protonmail.com>
+# Maintainer: Rayen Stark <rayen.stark@protonmail.com>
 pkgname=blitz
 pkgver=0.1.0
 pkgrel=1
@@ -9,7 +9,7 @@ license=('MIT')
 depends=('webkit2gtk' 'gtk3' 'libappindicator-gtk3' 'xboxdrv' 'polkit')
 makedepends=('rust' 'cargo' 'nodejs' 'pnpm')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('PUT_THE_ACTUAL_SHA256_HERE')
+sha256sums=('e4427e80ddda6fa93c28a161a30b742f15383060953d580568744d5abb85546a')
 
 build() {
   cd "$pkgname-$pkgver"
