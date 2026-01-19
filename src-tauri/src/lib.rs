@@ -37,7 +37,7 @@ struct ConfigsFile {
 // Helper function to get config file path
 fn get_configs_file_path() -> PathBuf {
     let home = std::env::var("HOME").unwrap_or_else(|_| ".".to_string());
-    PathBuf::from(home).join(".config/blitz/controller-configs.json")
+    PathBuf::from(home).join(".config/xboxdrv-blitz/controller-configs.json")
 }
 
 // Get controller name from event device

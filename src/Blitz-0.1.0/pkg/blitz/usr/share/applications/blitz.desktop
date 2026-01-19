@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories=
-Comment=A Tauri App
-Exec=blitz
-StartupWMClass=blitz
-Icon=blitz
-Name=blitz
-Terminal=false
-Type=Application

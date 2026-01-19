@@ -1,4 +1,4 @@
-# Blitz - xboxdrv GUI
+# xboxdrv-blitz - xboxdrv GUI
 
 A modern, user-friendly GUI for xboxdrv on Linux. Perfect for configuring non-standard game controllers that need custom button mappings.
 
@@ -11,7 +11,7 @@ A modern, user-friendly GUI for xboxdrv on Linux. Perfect for configuring non-st
 - 🚀 System tray integration - runs in background
 - ⚡ Built with Tauri for native performance
 
-## Why Blitz?
+## Why xboxdrv-blitz?
 
 Many cheap Xbox-style controllers (especially Chinese clones) don't work out-of-the-box on Linux. xboxdrv fixes this, but configuring it via command line is painful. Blitz makes it simple.
 
@@ -19,7 +19,7 @@ Many cheap Xbox-style controllers (especially Chinese clones) don't work out-of-
 
 ### Arch Linux (AUR)
 ```bash
-yay -S blitz
+yay -S xboxdrv-blitz
 ```
 
 ### From Source
@@ -28,17 +28,17 @@ yay -S blitz
 sudo pacman -S rust nodejs pnpm webkit2gtk gtk3 libappindicator-gtk3 xboxdrv polkit
 
 # Clone and build
-git clone https://github.com/TheToxicSideOfMe/blitz.git
-cd blitz
+git clone https://github.com/TheToxicSideOfMe/xboxdrv-blitz.git
+cd xboxdrv-blitz
 pnpm install
 pnpm tauri build
 
-# Binary will be in src-tauri/target/release/blitz
+# Binary will be in src-tauri/target/release/xboxdrv-blitz
 ```
 
 ## Usage
 
-1. Launch Blitz
+1. Launch xboxdrv-blitz
 2. Click "Discover Controllers" to find your controller
 3. Select your controller and click "Map Buttons"
 4. Follow on-screen instructions to map each button

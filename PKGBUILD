@@ -35,7 +35,7 @@ package() {
     "$pkgdir/usr/share/icons/hicolor/128x128/apps/xboxdrv-blitz.png"
 
   install -Dm644 \
-    blitz.desktop \
+    xboxdrv-blitz.desktop \
     "$pkgdir/usr/share/applications/xboxdrv-blitz.desktop"
   
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
